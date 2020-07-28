@@ -1,11 +1,11 @@
-﻿using System;
+﻿using GradeBook;
+using GradeBook.Enums;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text.RegularExpressions;
-using GradeBook;
-using GradeBook.Enums;
 using Xunit;
 
 namespace GradeBookTests
@@ -146,7 +146,7 @@ namespace GradeBookTests
             var pattern = @"(public\soverride\schar\sGetLetterGrade\s?[(]\s?double\saverageGrade\s?[)])";
             var rgx = new Regex(pattern);
             var matches = rgx.Matches(input);
-            if(matches.Count > 0)
+            if (matches.Count > 0)
             {
                 pattern = @"base.GetLetterGrade[(]\s?averageGrade\s?[)];";
                 rgx = new Regex(pattern);

@@ -1,10 +1,10 @@
-﻿using System;
+﻿using GradeBook;
+using GradeBook.Enums;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
-using GradeBook;
-using GradeBook.Enums;
 using Xunit;
 
 namespace GradeBookTests

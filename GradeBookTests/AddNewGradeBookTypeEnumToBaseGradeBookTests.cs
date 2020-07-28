@@ -1,6 +1,6 @@
-﻿using System;
+﻿using GradeBook.GradeBooks;
+using System;
 using System.IO;
-using GradeBook.GradeBooks;
 using Xunit;
 
 namespace GradeBookTests

@@ -1,8 +1,8 @@
-﻿using System;
+﻿using GradeBook.GradeBooks;
+using GradeBook.UserInterfaces;
+using System;
 using System.IO;
 using System.Linq;
-using GradeBook.GradeBooks;
-using GradeBook.UserInterfaces;
 using Xunit;
 
 namespace GradeBookTests
